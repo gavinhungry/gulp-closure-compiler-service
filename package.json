@@ -1,0 +1,23 @@
+{
+  "name": "gulp-closure-compiler-service",
+  "version": "0.0.0",
+  "author": "Gavin Lloyd <gavinhungry@gmail.com>",
+  "description": "Gulp plugin to the Google Closure compiler service",
+  "license": "MIT",
+
+  "keywords": [
+    "closure",
+    "service",
+    "gulpplugin"
+  ],
+
+  "homepage": "https://github.com/gavinhungry/gulp-closure-compiler-service",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gavinhungry/gulp-closure-compiler-service.git"
+  },
+
+  "dependencies": {
+    "closure-compiler-service": "0.2.x"
+  }
+}

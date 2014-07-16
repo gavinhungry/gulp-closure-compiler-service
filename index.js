@@ -3,8 +3,8 @@
 
   var PLUGIN_NAME = 'gulp-closure-compiler-service';
 
-  var through = require('through2');
   var gutil   = require('gulp-util');
+  var through = require('through2');
   var closure = require('closure-compiler-service');
 
   module.exports = function(options) {
@@ -28,7 +28,7 @@
 
       if (file.isBuffer()) {
         closure.compile(file.contents, options, function(errs, code) {
-          if (errs) {
+          if (errs && errs.length) {
             that.emit('error',
               new gutil.PluginError(PLUGIN_NAME, errs[0].error));
 

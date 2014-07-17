@@ -23,7 +23,8 @@ Usage
     });
 
 
-Options can be passed to the API:
+[Options](https://github.com/gavinhungry/closure-compiler-service/blob/master/README.md#default-options)
+can be passed to the API:
 
     .pipe(closure({
       compilation_level: 'WHITESPACE_ONLY'

@@ -7,8 +7,12 @@
 
   "keywords": [
     "closure",
-    "service",
-    "gulpplugin"
+    "compiler",
+    "compress",
+    "google",
+    "gulpplugin",
+    "minify",
+    "service"
   ],
 
   "homepage": "https://github.com/gavinhungry/gulp-closure-compiler-service",

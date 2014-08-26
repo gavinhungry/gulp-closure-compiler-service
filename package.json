@@ -22,8 +22,8 @@
   },
 
   "dependencies": {
-    "gulp-util": "2.2.x",
-    "through2": "0.5.x",
-    "closure-compiler-service": "0.3.x"
+    "gulp-util": "3.0.x",
+    "through2": "0.6.x",
+    "closure-compiler-service": "0.4.x"
   }
 }

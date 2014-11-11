@@ -27,7 +27,7 @@
       }
 
       if (file.isBuffer()) {
-        closure.compile(file.contents, options, function(errs, code) {
+        closure.compile(file.contents, options, function(errs, warns, code) {
           if (errs && errs.length) {
             that.emit('error',
               new gutil.PluginError(PLUGIN_NAME, errs[0].error));

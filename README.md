@@ -27,6 +27,7 @@ can be passed to the API:
 
 ```javascript
 .pipe(closure({
+  language: 'ECMASCRIPT5',
   compilation_level: 'WHITESPACE_ONLY'
 }))
 ```

@@ -23,7 +23,7 @@
 
   "dependencies": {
     "gulp-util": "3.0.x",
-    "through2": "0.6.x",
+    "through2": "2.0.x",
     "closure-compiler-service": "0.5.x"
   }
 }

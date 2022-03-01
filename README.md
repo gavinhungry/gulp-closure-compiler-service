@@ -22,7 +22,7 @@ gulp.task('compile', function() {
 });
 ```
 
-[Options](https://github.com/gavinhungry/closure-compiler-service/blob/master/README.md#default-options)
+[Options](https://github.com/gavinhungry/closure-compiler-service/blob/main/README.md#default-options)
 can be passed to the API:
 
 ```javascript
